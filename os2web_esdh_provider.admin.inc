@@ -77,7 +77,7 @@ function os2web_esdh_provider_import_form() {
   $form['group']['focus'] = array(
     '#type' => 'textfield',
     '#title' => t('Focused import id'),
-    '#description' => t('Ie. 1577 to reimport XML_1577.xml.'),
+    '#description' => t('Ie. 1577 to reimport XML_1577.xml. seperate multiple with comma'),
   );
   $form['group']['debug_info'] = array(
     '#type' => 'checkbox',
